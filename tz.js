@@ -4,7 +4,7 @@ moment.tz.setDefault('America/New_York');
 
 let targetTimezone;
 
-if (process.argv.length != 3) {
+if (process.argv.length !== 3) {
   console.log('Usage: node <script-file> <timezone>');
   process.exit(1);
 } else {
